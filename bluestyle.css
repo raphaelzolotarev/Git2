@@ -1,8 +1,40 @@
 body {
-background-color: lightblue;
+    background-color: lightblue;
 }
 
 h1 {
-color: navy;
-margin-left: 20px;
+    color: navy;
+    margin-left: 25px;
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease;
+}
+
+
+h1:hover {
+    color: blue;
+}
+
+/* Style for paragraph */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px; /
+}
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:nth-of-type(6) {
+    background-color: #dc3545;
 }
