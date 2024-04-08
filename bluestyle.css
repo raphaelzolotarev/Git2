@@ -3,6 +3,14 @@ background-color: lightblue;
 }
 
 h1 {
-color: navy;
-margin-left: 20px;
+    color: navy;
+    margin-left: 25px;
+    font-size: 32px; 
+    font-family: Arial, sans-serif; 
+    transition: color 0.3s ease; 
+}
+
+
+h1:hover {
+    color: blue;
 }
